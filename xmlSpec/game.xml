@@ -1,0 +1,116 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Super Waluigi Bros.</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>sgfowle</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+  <loc x="30" y="30"/>
+</view>
+
+<fpscounter>
+  <loc x="30" y="60"/>
+</fpscounter>
+
+<world>
+  <width>2000</width>
+  <height>800</height>
+</world>
+
+<back>
+  <file>assets/mariobackground.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</back>
+
+<back2>
+  <file>assets/hills.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back2>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<SuperStar>
+  <file>assets/superstar.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>4</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+</SuperStar>
+
+<Mushroom>
+  <file>assets/mushroom.png</file>
+  <startLoc x="1950" y="776"/>
+  <speedX>-150</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Mushroom>
+
+<Waluigi>
+  <file>assets/waluigi.png</file>
+  <startLoc x="100" y="704"/>
+  <frames>8</frames>
+  <frameInterval>75</frameInterval>
+  <speedX>250</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Waluigi>
+
+<Bill>
+  <file>assets/bill.png</file>
+  <startLoc x="250" y="650"/>
+  <frames>2</frames>
+  <frameInterval>75</frameInterval>
+  <speedX>-350</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Bill>
+
+<Boo>
+  <file>assets/boo.png</file>
+  <startLoc x="500" y="400"/>
+  <frames>24</frames>
+  <frameInterval>25</frameInterval>
+  <speedX>100</speedX>
+  <speedY>50</speedY>
+  <transparency>false</transparency>
+</Boo>
+
+<Latiku>
+  <file>assets/latiku.png</file>
+  <startLoc x="1600" y="550"/>
+  <speedX>125</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Latiku>
+
+<Goomba>
+  <file>assets/goomba.png</file>
+  <startLoc x="50" y="768"/>
+  <frames>2</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>75</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Goomba>
+
+</GameData>
